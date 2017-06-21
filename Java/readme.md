@@ -84,3 +84,13 @@
   - Method Parameters and Return Values
     - perform validation and sanity checks
   - Methods as API entry points
+  
+## General programming guidelines
+  - Variable scopes
+  - Class fields and local variables
+  - Boxing and unboxing
+  - Strings
+    - Every time you perform any operation which modifies the original string, the new instance of the ```String``` class is created.
+    - ```StringBuffer``` is thread-safe while ```StringBuilder``` is not
+  - Naming conventions
+  - Testing
