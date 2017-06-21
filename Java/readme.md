@@ -70,3 +70,17 @@
   - Annotations and retention policy
   - When to use annotations
   
+## How to write methods efficiently
+  - Method signatures
+  - Method body
+    - every single method does just one thing and does it well
+  - Method overloading
+  - Method overriding
+  - Inlining
+  - Recursion
+  - Method References
+  - Immutability
+  - Method Documentation
+  - Method Parameters and Return Values
+    - perform validation and sanity checks
+  - Methods as API entry points
