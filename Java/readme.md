@@ -43,3 +43,18 @@
     
 ## How and when to use Generics
   - Generics and interfaces: ```public interface GenericInterfaceOneType<T>{void performAction(final T action);}```
+  - Generics and classes
+  - Generics and methods
+  - Limitation of generics
+    - 1) primitive types (e.g., ```int```, ```long```, ```byte```) are not allowed to be used in generics, and the respective class wrapper (e.g., ```Integer```, ```Long```, ```Byte```) has to be used instead; 
+    - 2) another one, more obscure, is type erasure; 
+    - 3) t is also not possible to create the array instances using generics;
+    - 4) implicit boxing and unboxing for primitive types.
+  - Generics, wildcards and bounded types
+    - bounded types: ```public <T, J extends T> void action(final T initial, final J next){ }```
+    - wildcards: ```public void store(final Collection<?> objects) { }```
+  - Generics and type inference
+  - Generics and annotations
+    - ```public <@Actionable T> void performAction(final T action){ }```
+  - Accessing generic type parameters
+  - When to use generics
