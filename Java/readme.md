@@ -40,3 +40,6 @@
   - Composition and Encapsulation
   - Final classes and methods
     - prevent the class to be subclassed by any other class
+    
+## How and when to use Generics
+  - Generics and interfaces: ```public interface GenericInterfaceOneType<T>{void performAction(final T action);}```
