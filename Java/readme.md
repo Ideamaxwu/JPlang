@@ -58,3 +58,15 @@
     - ```public <@Actionable T> void performAction(final T action){ }```
   - Accessing generic type parameters
   - When to use generics
+  
+## How and when to use Enums and Annotations
+  - Enums as special classes: ```public enum DaysOfTheWeek{ }```
+  - Enums and instance fields
+  - Enums and interfaces
+  - Enums and generics
+  - Convenient Enums methods
+  - Specialized Collections: EnumSet and EnumMap
+  - Annotations as special interfaces
+  - Annotations and retention policy
+  - When to use annotations
+  
